@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <title>assignment03</title>
+  </head>
+  <body>
+      <!-- login area start -->
+   <header id="login_area">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-10 m-auto">
+                   <div class="loginform" >
+                     <h1>Welcome to Prioneer Bank</h1>
+                     <div class="submit-box" id="submitbutton">
+                        <h4>Login</h4>
+                        <input type="email" placeholder="email"  id="loginemail" class="loginemail" required>
+                        <input type="password" placeholder="password" id="loginpass" class="loginpass">
+                        <button class="btn btn-success login_submit" id="login_submit">Submit</button>
+                     </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+<!-- login area end -->
+
+<!-- transtion area start -->
+<section id="transiton_area">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="transiton_all">
+                    <h1>Welcome to Prioneer Bank</h1>
+                    <h4>Transtion Area</h4>
+                
+                <!-- transiton box start -->
+                <div class="row transiton_allbox ">
+                    <div class="col-lg-4">
+                        <div class="transtion_box1">
+                            <h5>Deposit</h5>
+                            <p>$<span id="curent_deposite">00</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="transtion_box2">
+                            <h5>Withdraw</h5>
+                            <p>$<span id="withdraw">00</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="transtion_box3">
+                            <h5>Balance</h5>
+                            <p>$<span id="total_amount">00</span></p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- transiton box start -->
+                 <div class="row">
+                     <div class="col-lg-6">
+                         <div class="deposite_login">
+                            <h5>Deposit</h5>
+                            <input type="text" placeholder="$ amount you want to deposit" 
+                            id ="deposit_inpu" class="depoit_input">
+                            <button type="submit" class="btn deposti_btn" id="deposit_btn">Deposit</button>
+                         </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="withdraw_login">
+                            <h5>Withdraw</h5>
+                            <input type="text" placeholder="$ amount you want to withdraw" 
+                            id ="withdraw_input" class="withdraw_input">
+                            <button class="btn withdrow_btn" type="submit" id="withdrow_btn"> Withdraw</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+ <script src="app.js"></script>
+  </body>
+</html>

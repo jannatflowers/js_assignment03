@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+  
+}
+/* loginform :start */
+.loginform{
+    margin:50px auto;
+}
+.loginform h1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+}
+.submit-box{
+margin: 50px auto;
+border:1px solid #70696940;
+width:400px;
+padding:30px;
+box-shadow:3px 3px 5px 6px #70696940;
+border-radius: 20px;
+
+}
+.submit-box h4{
+    font-size: 20px;
+    font-weight: 900;
+    color:black;
+}
+.loginemail,.loginpass{
+width: 100%;
+padding:10px;
+margin:10px 0px;
+}
+.login_submi{
+
+}
+.login_submit:focus {
+    border:none;
+    box-shadow:none;
+ 
+}
+/* loginform area end */
+/* transtion area start */
+#login_area{
+    display: block;
+}
+#transiton_area{
+display: none;
+}
+.transiton_all{
+    margin:50px auto;
+    color:black;
+
+}
+.transiton_all h1{
+    text-align: center;
+}
+.transiton_all h4{
+   font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+    margin:30px 0px;
+}
+.transiton_allbox{
+margin-bottom: 100px;
+
+}
+.transtion_box1, .transtion_box2, .transtion_box3{
+    border-radius: 10px;
+    padding:25px ;
+    font-size:17px;
+    color:white;
+    box-shadow:3px 3px 5px 6px #70696940;
+}
+.transtion_box1 p, .transtion_box2 p, .transtion_box3 p{
+  font-size: 30px;
+}
+.transtion_box1{
+    background-color:#ff5733 ;
+}
+.transtion_box2{
+    background-color:#9133ff ;
+}
+.transtion_box3{
+    background-color:#339eff;
+}
+.deposite_login, .withdraw_login{
+    border-radius: 10px;
+    padding:25px ;
+    font-size:17px;
+    box-shadow:3px 3px 5px 6px #70696940;
+}
+.depoit_input,.withdraw_input{
+    width: 100%;;
+   padding:10px;
+    margin-top: 10px;
+    border:1px solid gray;
+   
+}
+.deposti_btn{
+    background-color: #f133ffb9;
+    margin-top: 20px;
+    color:#fff;
+}
+.deposti_btn:focus{
+    border:none;
+    box-shadow:none;
+}
+.withdrow_btn{
+    background-color:#33daff;
+    margin-top: 20px;
+    color:#fff;
+}
+.withdrow_btn:focus{
+    border:none;
+    box-shadow:none;
+}
